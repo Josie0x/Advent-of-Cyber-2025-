@@ -1,5 +1,8 @@
-  
 
+ <p align="center">
+  <img width="500" height="417" alt="Gemini_Generated_Image_bmakh6bmakh6bmak" src="https://github.com/user-attachments/assets/0f95ba2d-7765-48e2-aea0-7dd672cafa51" />
+
+</p>
 
 ***Advent of Cyber – Day 1***. McSkidy has vanished, and without her, Wareville is slipping into chaos. The TBFC team is scrambling for answers, and their first clue leads to tbfc-web01, a Linux wishlist-processing server. Somewhere in its files might be evidence of what McSkidy was doing before she disappeared or hints of King Malhare’s bizarre plans for EASTMAS. The investigation begins with digging into that server to uncover the truth.
 
@@ -16,6 +19,10 @@ These basics sharpened my speed and accuracy during SOC work — especially when
 
 ----
 
+<p align="center">
+  <img width="500" height="417" alt="Screenshot 2025-12-02 at 5 19 32 PM" src="https://github.com/user-attachments/assets/2929a1b3-e2f5-41f2-a40e-9b4576d0c3d9" />
+
+</p>
 
 ***Advent of Cyber – Day 2***. Today’s focus was phishing operations from a red-team perspective.
  🐍 Hosted a cloned login portal using a Python server script on port 8000 to capture submitted credentials.
