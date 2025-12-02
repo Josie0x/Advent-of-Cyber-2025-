@@ -1,15 +1,31 @@
-   <img width="500" height="200" alt="Screenshot 2025-12-01 at 9 55 17 PM" src="https://github.com/user-attachments/assets/49eeace8-4181-467e-bcb8-e4c84a6bba7e" />
+  
 
 
-#### McSkidy has vanished, and without her, Wareville is slipping into chaos. The TBFC team is scrambling for answers, and their first clue leads to tbfc-web01, a Linux wishlist-processing server. Somewhere in its files might be evidence of what McSkidy was doing before she disappeared or hints of King Malhare’s bizarre plans for EASTMAS. The investigation begins with digging into that server to uncover the truth.
+***Advent of Cyber – Day 1***. McSkidy has vanished, and without her, Wareville is slipping into chaos. The TBFC team is scrambling for answers, and their first clue leads to tbfc-web01, a Linux wishlist-processing server. Somewhere in its files might be evidence of what McSkidy was doing before she disappeared or hints of King Malhare’s bizarre plans for EASTMAS. The investigation begins with digging into that server to uncover the truth.
 
-I reviewed the core commands and habits that make Linux navigation smooth during investigations:                                            
+I reviewed the core commands and habits that make Linux navigation smooth during investigations: <img width="200" height="200" alt="678ecc92c80aa206339f0f23-1762788024698" src="https://github.com/user-attachments/assets/7e99323c-145f-493a-8589-8808e06a9910" />                                           
 
-- **Filesystem navigation:** Using `ls`, `ls -a`, and directory changes to see visible and hidden files.  <img width="200" height="200" alt="678ecc92c80aa206339f0f23-1762788024698" src="https://github.com/user-attachments/assets/7e99323c-145f-493a-8589-8808e06a9910" />
-
+- **Filesystem navigation:** Using `ls`, `ls -a`, and directory changes to see visible and hidden files.  
 - **File inspection:** Using `cat`, `type`, and path awareness to read and verify file contents.
 - **Path accuracy:** Noticing how Linux treats capitalization, slashes, and exact file locations.
 - **Troubleshooting missing files:** Understanding when a file is genuinely missing vs. when you’re just in the wrong directory or it’s hidden.
 
 These basics sharpened my speed and accuracy during SOC work — especially when digging through artifacts, user directories, or system logs during an investigation.
-<img width="1176" height="648" alt="Screenshot 2025-12-01 at 9 47 36 PM" src="https://github.com/user-attachments/assets/237de42e-3270-453c-bd3a-e2fa363b8999" />
+
+<img width="500" height="500" alt="Screenshot 2025-12-01 at 9 47 36 PM" src="https://github.com/user-attachments/assets/237de42e-3270-453c-bd3a-e2fa363b8999" />
+
+----
+
+
+***Advent of Cyber – Day 2***. Today’s focus was phishing operations from a red-team perspective.
+ 🐍 Hosted a cloned login portal using a Python server script on port 8000 to capture submitted credentials.
+ • Validated the page locally to confirm the credential-capture logic was working.
+ • Used the Social-Engineer Toolkit (SET) to build and deliver a phishing email with sender spoofing, SMTP setup, and the embedded harvest link.
+ 📸 Captured valid credentials and after logging into the victim’s mailbox, confirmed they were reused and found internal data, including the 1,984,000 toys 🧸 expected for delivery.
+ 
+<p align="center">
+  <img width="500" height="800" alt="Screenshot 2025-12-02 at 5 06 23 PM" src="https://github.com/user-attachments/assets/6bdd0c1a-2392-49d7-8ace-ed17866ac22f" />
+
+ <img width="500" height="250" alt="Screenshot 2025-12-02 at 4 31 01 PM" src="https://github.com/user-attachments/assets/72c3f43f-9b1e-4fa5-b82c-f94756b112ee" />
+
+</p>
