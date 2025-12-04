@@ -36,3 +36,18 @@ These basics sharpened my speed and accuracy during SOC work — especially when
  <img width="500" height="250" alt="Screenshot 2025-12-02 at 4 31 01 PM" src="https://github.com/user-attachments/assets/72c3f43f-9b1e-4fa5-b82c-f94756b112ee" />
 
 </p>
+
+----
+<p align="center">
+ <img width="500" height="417" alt="Gemini_Generated_Image_tgf7ettgf7ettgf7" src="https://github.com/user-attachments/assets/896ac54d-1c3e-4ba1-b8e5-bababb4af52e" />
+
+</p>
+
+***Advent of Cyber – Day 3*** I walked through a full intrusion chain that kicked off from ██████████. The attacker started by poking at sensitive application paths, then ramped up into wide path-traversal and SQL-injection attempts driven by automated tools (████████, ████████). From there, they managed to land remote code execution through a dropped webshell (████████.php) and ran a malicious payload (████████.bin). I also caught attempts to pull archived data off the server (████████.zip, ████████.gz) and confirmed outbound C2 activity coming from the compromised host (██████████). The whole sequence lined up cleanly across the kill chain recon, exploitation, post exploitation, and C2—which made it a solid end-to-end investigation to run through Splunk
+
+<p align="center">
+  <img width="500" height="800" alt="5e8dd9a4a45e18443162feab-1762375952691" src="https://github.com/user-attachments/assets/e4073ce0-c628-48e6-b6bc-784a74024108" />
+
+<img width="500" height="800" alt="Screenshot 2025-12-03 at 1 06 27 PM" src="https://github.com/user-attachments/assets/0a9b3d3f-d6f1-41a3-99ce-76d5a514d78a" />
+
+</p>
